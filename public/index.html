@@ -1,0 +1,38 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Avalanche 2.0</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--coped from socket.io chat example https://github.com/socketio/socket.io/tree/master/examples/chat removed the page tag so that the game could be on the same screen-->
+            <li class="chat page">
+                <div class="chatArea">
+                    <ul class="messages"></ul>
+                </div>
+                <input class="inputMessage" placeholder="Type here..." />
+            </li>
+            <li class="login page">
+                <div class="form">
+                    <h3 class="title">What's your nickname?</h3>
+                    <input class="usernameInput" type="text" maxlength="14" />
+                </div>
+            </li>
+
+        <!--end copy-->
+        <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+        <!-- uncomment lines below to include extra p5 libraries -->
+        <script language="javascript" src="libraries/p5.dom.js"></script>
+        <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="/main.js"></script>
+        <script language="javascript" type="text/javascript" src="sketch.js"></script>
+        <script language="javascript" type="text/javascript" src="ship.js"></script>
+        <script language="javascript" type="text/javascript" src="Block.js"></script>
+        <script language="javascript" type="text/javascript" src="Lava.js"></script>
+        <script language="javascript" type="text/javascript" src="Ground.js"></script>
+        <!-- this line removes any default padding and style. you might only need one of these values set. -->
+    </body>
+</html>
