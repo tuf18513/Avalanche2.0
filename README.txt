@@ -1,4 +1,5 @@
 To run this game:
+0. download the Avalanche.zip file, DONT CLONE, netbeans and github dont allow me to upload the node modules files so this way is much easier.
 1. got to nodejs.org/
 2. download v7.9.0
 3. install v7.9.0
